@@ -1,5 +1,5 @@
-#Valorant,无畏契约,0,0,1,0,0,0,By-小明'
-#https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/Valorant.rules'
+#Valorant,无畏契约,0,0,1,0,0,0,By-小明
+#https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/master/rules/Valorant.rules
 payload:
 - '1.192.193.158/32'
 - '1.192.193.159/32'
