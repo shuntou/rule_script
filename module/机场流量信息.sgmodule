@@ -2,7 +2,7 @@
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!category=面板
 #!system=ios
-#!arguments=url, reset_day, title, icon, color
+#!arguments=url#填入url-encode, reset_day, title, icon, color
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=3600
 [Script]
