@@ -2,7 +2,7 @@
 #!desc=显示节点订阅URL信息
 #!category=面板
 #!system=ios
-#!arguments=url:URL Encode, reset_day:1, title, icon:SF Symbol Name, color:#007aff
+#!arguments=url:URL Encode, reset_day:1, title:标题, icon:SF Symbol Name, color:#000000
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=3600
 [Script]
