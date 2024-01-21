@@ -1,5 +1,5 @@
 #!name=机场流量信息
-#!desc=显示机场剩余流量信息以及套餐到期日期
+#!desc=url内容为encode编码后的文本，icon内容为任意有效的 SF Symbol Name
 #!category=面板
 #!system=ios
 #!arguments=url, reset_day, title, icon, color
