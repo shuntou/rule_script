@@ -2,6 +2,7 @@
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!category=test
 #!system=ios
+#!arguments=url
 # 原作者未知，复制自深巷有喵的GitHub
 # 更新日期：2023.03.19
 # 版本：3.4
