@@ -1,8 +1,8 @@
-#!name=机场流量信息
-#!desc=url内容为encode编码后的文本，icon内容为任意有效的 SF Symbol Name
+#!name=节点订阅URL信息
+#!desc=显示节点订阅URL信息
 #!category=面板
 #!system=ios
-#!arguments=url, reset_day, title, icon, color
+#!arguments=url:将URL文本转换成Encode填入, reset_day:1, title:随便填, icon:bolt.horizontal.circle.fill, color:#007aff
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=3600
 [Script]
