@@ -2,7 +2,6 @@
 #!desc=显示节点订阅URL信息
 #!category=面板
 #!system=ios
-#!arguments=url, reset_day:0, expire:2077-01-01, title, icon:figure.run, color:#000000
 
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=3600
