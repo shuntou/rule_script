@@ -1,6 +1,6 @@
 #!name=TikTok
 #!desc=解锁 TikTok
-#!arguments=policy,region,mcc_mnc,carrier,tz_name,timezone
+#!arguments=policy:PROXY,region:JP,mcc_mnc:44001,carrier:docomo,tz_name:Asia/Tokyo,timezone:9
 
 [Rule]
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com,{{{policy}}}
