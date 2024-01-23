@@ -1,6 +1,7 @@
 #!name=TikTok
 #!desc=解锁 TikTok
 #!arguments=policy,region,mcc_mnc,carrier,tz_name,timezone
+
 [Rule]
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com,{{{policy}}}
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com,{{{policy}}}
@@ -32,7 +33,6 @@ USER-AGENT,TikTok*,{{{policy}}}
 PROCESS-NAME,com.zhiliaoapp.musically,{{{policy}}}
 
 [URL Rewrite]
-
 (?<=_region=)[A-Z]{2}(?=&) {{{region}}} 307
 (?<=&mcc_mnc=)460[0-1][0-9](?=&) {{{mcc_mnc}}} 307
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
