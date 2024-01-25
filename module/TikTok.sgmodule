@@ -41,7 +41,6 @@ PROCESS-NAME,com.zhiliaoapp.musically,{{{policy}}}
 (?<=&carrier=)[%A-Z0-9]+(?=&) {{{carrier}}} 307
 (?<=tz_name=)Asia/Shanghai(?=&) {{{tz_name}}} 307
 (?<=tz_offset=)28800(?=&) {{{tz_offset}}} 307
-(?<=eme\/v)2(?=\/f\w{2}d\/\?.*) 1 302
 
 [MITM]
 hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
