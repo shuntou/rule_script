@@ -3,7 +3,7 @@
 #!category=🎮 Games
 
 [Script]
-Xbox Cloud Gaming Xbox%20CLoud%20Gaming优化整合 = type=http-response,pattern="^https?://(\w{0,3}(\.){0,1}(xbox)(\.)\w{0,3}).*?/play.*",requires-body=1,script-path=https://raw.githubusercontent.com/shuntou/rule_script/main/module/xbox/Xbox CLoud Gaming优化整合.js,max-size=0,script-update-interval=0
+Xbox Cloud Gaming优化整合 = type=http-response,pattern="^https?://(\w{0,3}(\.){0,1}(xbox)(\.)\w{0,3}).*?/play.*",requires-body=1,script-path=https://raw.githubusercontent.com/shuntou/rule_script/main/module/xbox/Xbox CLoud Gaming优化整合.js,max-size=0,script-update-interval=0
 
 [MITM]
 hostname = %INSERT% *.xbox.com
