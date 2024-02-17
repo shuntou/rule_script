@@ -3,7 +3,7 @@
 #!category=🎮 Games
 
 [Script]
-Xbox Cloud Gaming Region Unlocker = type=http-response,pattern="^https?://(\w{0,3}(\.){0,1}(xbox)(\.)\w{0,3}).*?/play.*",requires-body=1,script-path=https://github.com/shuntou/rule_script/raw/main/module/xbox/Xbox%20Cloud%20Gaming%20Localization.js,max-size=0,script-update-interval=0
+Xbox Cloud Gaming Region Unlocker = type=http-response,pattern="^https?://(\w{0,3}(\.){0,1}(xbox)(\.)\w{0,3}).*?/play.*",requires-body=1,script-path=https://raw.githubusercontent.com/shuntou/rule_script/main/module/xbox/Xbox%20Cloud%20Gaming%20Localization.js,max-size=0,script-update-interval=0
 
 [MITM]
 hostname = %INSERT% *.xbox.com
