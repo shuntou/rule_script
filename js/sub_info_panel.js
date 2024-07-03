@@ -1,4 +1,3 @@
-let argument1 = $argument.replace(/(url=)([^$]*)/, (_, prefix, url) => `${prefix}${encodeURIComponent(url)}`);
 let args = getArgs();
 
 (async () => {
@@ -38,7 +37,6 @@ function getArgs() {
     argument1
       .split("$")
       .map((item) => item.split("="))
-      .map(([k, v]) => [k, decodeURIComponent(v)])
   );
 }
 
