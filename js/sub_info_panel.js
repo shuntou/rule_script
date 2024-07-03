@@ -34,7 +34,7 @@ let args = getArgs();
 
 function getArgs() {
   return Object.fromEntries(
-    argument1
+    $argument
       .split("$")
       .map((item) => item.split("="))
   );
