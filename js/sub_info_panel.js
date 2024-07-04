@@ -33,8 +33,9 @@ let args = getArgs();
 })();
 
 function getArgs() {
+  let argument1 = $argument.replace(/(url=)([^$]*)/, (_, prefix, url) => `${prefix}${encodeURIComponent(url)}`);
   return Object.fromEntries(
-    $argument
+    argument1
       .split("$")
       .map((item) => item.split("="))
       .map(([k, v]) => [k, decodeURIComponent(v)])
