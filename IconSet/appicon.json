@@ -21,6 +21,34 @@
         {
             "name": "OneDrive",
             "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/onedrive.png"
+        },
+        {
+            "name": "Surge",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/surge.png"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/telegram.png"
+        },
+        {
+            "name": "TikTok",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/tiktok.png"
+        },
+        {
+            "name": "WhatsApp",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/whatsaoo.png"
+        },
+        {
+            "name": "Windows",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/windows-app.png"
+        },
+        {
+            "name": "World App",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/world-app.png"
+        },
+        {
+            "name": "Xbox",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/xbox.png"
         }
     ]
 }
