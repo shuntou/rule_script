@@ -1,1 +1,26 @@
-
+{
+    "name": "App Icons",
+    "description": "shuntou",
+    "icons": [
+        {
+            "name": "Chat GPT",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/chatgpt.png"
+        },
+        {
+            "name": "Emby",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/emby.png"
+        },
+        {
+            "name": "Google",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/google.png"
+        },
+        {
+            "name": "Netflix",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/netflix.png"
+        },
+        {
+            "name": "OneDrive",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/onedrive.png"
+        }
+    ]
+}
