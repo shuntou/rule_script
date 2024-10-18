@@ -23,6 +23,14 @@
             "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/onedrive.png"
         },
         {
+            "name": "PayPal",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/paypal.png"
+        },
+        {
+            "name": "PayPal Business",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/paypal-business.png"
+        },
+        {
             "name": "Surge",
             "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/surge.png"
         },
