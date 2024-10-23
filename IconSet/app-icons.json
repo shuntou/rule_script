@@ -57,6 +57,14 @@
         {
             "name": "Xbox",
             "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/xbox.png"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/youtube.png"
+        },
+        {
+            "name": "Youtube Music",
+            "url": "https://raw.githubusercontent.com/shuntou/rule_script/main/IconSet/youtube-music.png"
         }
     ]
 }
