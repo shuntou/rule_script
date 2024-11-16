@@ -1,9 +1,0 @@
-#!name=Xbox CLoud Gaming 优化整合
-#!desc=整合和修改现有脚本，优化项详见脚本说明。
-#!category=🎮 Games
-
-[Script]
-Xbox Cloud Gaming优化整合 = type=http-response,pattern="^https?://(\w{0,3}(\.){0,1}(xbox)(\.)\w{0,3}).*?/play.*",requires-body=1,script-path=https://raw.githubusercontent.com/shuntou/rule_script/main/module/xbox/Xbox CLoud Gaming优化整合.js,max-size=0,script-update-interval=0
-
-[MITM]
-hostname = %INSERT% *.xbox.com
